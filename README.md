@@ -1,22 +1,22 @@
-Titanic Data Analysis 🛳️
+#Titanic Data Analysis 
 
 This project analyzes the Titanic dataset (titanic.csv) using Python, Pandas, and Matplotlib.
 It performs data cleaning, statistical analysis, and visualization of passenger survival, demographics, and fares.
 Error handling is included to make the script more robust.
 
-📂 Project Structure
+ #Project Structure
 preprocessing/
 │── main.py         # Main analysis script
 │── titanic.csv     # Titanic dataset (input file)
 │── README.md       # Project documentation
 
-⚙️ Requirements
+# Requirements
 
 Install the required Python libraries:
 
 pip install pandas matplotlib
 
-▶️ How to Run
+# How to Run
 
 Place the dataset file titanic.csv in the same folder as main.py.
 (It should have columns like: PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked.)
@@ -34,7 +34,7 @@ Print analysis results
 
 Show visualizations in pop-up windows
 
-📊 Analysis Performed
+# Analysis Performed
 
 Data Cleaning
 
@@ -60,7 +60,7 @@ Survival counts
 
 Survival rate by gender
 
-Visualizations
+##Visualizations
 
 Age distribution (histogram)
 
@@ -76,7 +76,7 @@ Age group distribution (bar chart)
 
 Fare distribution by passenger class (boxplot)
 
-🛡️ Error Handling
+# Error Handling
 
 The script safely handles:
 
@@ -88,7 +88,7 @@ Missing expected columns
 
 Unexpected runtime errors
 
-📌 Example Output
+  Example Output
 
 Mean Fare: 32.20
 
