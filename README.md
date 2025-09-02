@@ -8,7 +8,7 @@ Error handling is included to make the script more robust.
  ```sh
 Nimoy.AI_Freshers/
 │── main.py         # Main analysis script
-│── titanic.csv     # Titanic dataset (input file)
+│── train.csv     # Titanic dataset (input file)
 │── README.md       # Project documentation
 ```
 # Requirements
