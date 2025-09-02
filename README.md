@@ -1,6 +1,6 @@
 # Titanic Data Analysis 
 
-This project analyzes the Titanic dataset (titanic.csv) using Python, Pandas, and Matplotlib.
+This project analyzes the Titanic dataset (train.csv) using Python, Pandas, and Matplotlib.
 It performs data cleaning, statistical analysis, and visualization of passenger survival, demographics, and fares.
 Error handling is included to make the script more robust.
 
@@ -17,6 +17,7 @@ Install the required Python libraries:
 ```sh
 pip install pandas matplotlib
 ```
+- [Dataset](https://www.kaggle.com/c/titanic/data)
 # How to Run
 
 Place the dataset file titanic.csv in the same folder as main.py.
