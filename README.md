@@ -81,22 +81,22 @@ The program will:
 
 The script safely handles:
 
-Missing dataset file
+- Missing dataset file
 
-Empty dataset
+- Empty dataset
 
-Missing expected columns
+- Missing expected columns
 
-Unexpected runtime errors
+- Unexpected runtime errors
 
-  Example Output
+ # Example Output
 
-Mean Fare: 32.20
+- Mean Fare: 32.20
 
-Cabin with most passengers: Unknown (since many cabin values are missing)
+- Cabin with most passengers: Unknown (since many cabin values are missing)
 
-Most passengers age group: 21–30 years
+- Most passengers age group: 21–30 years
 
-Survival rate by gender: Females ~74%, Males ~19%
+- Survival rate by gender: Females ~74%, Males ~19%
 
 Plots will open automatically showing the distributions.
