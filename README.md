@@ -6,7 +6,7 @@ Error handling is included to make the script more robust.
 
  # Project Structure
  ```sh
-preprocessing/
+Nimoy.AI_Freshers/
 │── main.py         # Main analysis script
 │── titanic.csv     # Titanic dataset (input file)
 │── README.md       # Project documentation
@@ -14,68 +14,68 @@ preprocessing/
 # Requirements
 
 Install the required Python libraries:
-
+```sh
 pip install pandas matplotlib
-
+```
 # How to Run
 
 Place the dataset file titanic.csv in the same folder as main.py.
 (It should have columns like: PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked.)
 
 Run the script:
-
+```sh
 python main.py
-
+```
 
 The program will:
 
-Clean missing values
+- Clean missing values
 
-Print analysis results
+- Print analysis results
 
-Show visualizations in pop-up windows
+- Show visualizations in pop-up windows
 
 # Analysis Performed
 
-Data Cleaning
+- Data Cleaning
 
-Fill missing Age with median
+  - Fill missing Age with median
 
-Fill missing Fare with mean
+  - Fill missing Fare with mean
 
-Fill missing Embarked with mode
+  - Fill missing Embarked with mode
 
-Fill missing Cabin with "Unknown"
+  - Fill missing Cabin with "Unknown"
 
 # Statistics
 
-Mean fare
+- Mean fare
 
-Most frequent cabin
+- Most frequent cabin
 
-Age group distribution
+- Age group distribution
 
-Male vs Female counts
+- Male vs Female counts
 
-Survival counts
+- Survival counts
 
-Survival rate by gender
+- Survival rate by gender
 
 # Visualizations
 
-Age distribution (histogram)
+- Age distribution (histogram)
 
-Male vs Female (bar chart)
+- Male vs Female (bar chart)
 
-Survival counts (bar chart)
+- Survival counts (bar chart)
 
-Survival rate by gender (bar chart)
+- Survival rate by gender (bar chart)
 
-Top 10 cabins with most passengers (bar chart)
+- Top 10 cabins with most passengers (bar chart)
 
-Age group distribution (bar chart)
+- Age group distribution (bar chart)
 
-Fare distribution by passenger class (boxplot)
+- Fare distribution by passenger class (boxplot)
 
 # Error Handling
 
