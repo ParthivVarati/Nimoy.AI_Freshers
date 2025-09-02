@@ -4,12 +4,13 @@ This project analyzes the Titanic dataset (titanic.csv) using Python, Pandas, an
 It performs data cleaning, statistical analysis, and visualization of passenger survival, demographics, and fares.
 Error handling is included to make the script more robust.
 
- #Project Structure
+ # Project Structure
+ ```sh
 preprocessing/
 │── main.py         # Main analysis script
 │── titanic.csv     # Titanic dataset (input file)
 │── README.md       # Project documentation
-
+```
 # Requirements
 
 Install the required Python libraries:
